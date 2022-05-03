@@ -1,6 +1,6 @@
 local Library = {}
 
-function Library:CreateLib(HubName, GameName)
+function Library.CreateLib(HubName, GameName)
 	--Extra Props
 		local XenoHub = Instance.new("ScreenGui")
 		local MainFrame = Instance.new("Frame")
